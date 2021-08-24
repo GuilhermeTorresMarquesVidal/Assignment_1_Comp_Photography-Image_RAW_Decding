@@ -15,4 +15,4 @@ black_level_per_channel = ({'R': 255, 'G': 255, 'B': 255})
 
 A = 255
 
-gamma = 2.2
+gamma = 1./2.2
