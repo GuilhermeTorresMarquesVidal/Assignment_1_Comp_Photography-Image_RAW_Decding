@@ -11,6 +11,8 @@ white_level_per_channel = ({'R': 2000, 'G': 4000, 'B': 2000})
 
 black_level_per_channel = ({'R': 255, 'G': 255, 'B': 255})
 
-# Value for gamma correction
+# Values for gamma correction
 
-gamma = 1./1.05
+A = 255
+
+gamma = 2.2

@@ -1,12 +1,14 @@
 import numpy as np
 
+from .params import*
+
 from .utilities import remove_out_layers
 
 def gamma_correction(image, gamma):
     
     # Gamma encoding
     
-    image_with_gamma_correction = np.power(image, gamma)
+    image_with_gamma_correction = limit_up * np.power(image / limit_up, gamma)
     
     # Remove out layers
     
